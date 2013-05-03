@@ -1,0 +1,5 @@
+To access https webpage like corp wiki, it has ssl: 
+	1.keytool -import -v -file /xxx.crt -keystore trust.jks
+	2.System.setProperty("javax.net.ssl.trustStore", "truststore/trust.jks");
+This is a crawl about webpage and filesystem.
+This a multi-thread crawler.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Crawl>
+	<Proxy>
+		<proxySet>true</proxySet>
+		<proxyHost>proxy.sin.sap.corp</proxyHost>
+		<proxyPort>8080</proxyPort>
+	</Proxy>
+	
+	<Solr>http://localhost:8080/solr</Solr>
+	
+	<TrustStore>
+	 	<name>javax.net.ssl.trustStore</name>
+	 	<value>truststore/trust.jks</value>>
+	</TrustStore>
+	
+	<SeedDir>seeds.txt</SeedDir>
+	
+	<Threads>10</Threads>
+	
+	<!-- this is a location to hold links(crawl fetched last time).
+		this time, after crawl run, replace it.
+	 -->
+	<FetchedLinksDir>fetchedlinks</FetchedLinksDir>
+	
+	<Parsers>
+		<parser>
+			
+		</parser>
+	</Parsers>
+	
+</Crawl>
