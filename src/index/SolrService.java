@@ -15,11 +15,10 @@ import org.apache.solr.common.SolrInputDocument;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import util.Webpage;
-
 import crawl.CrawlConfig;
-import data.SolrData;
 import data.Link;
+import data.SolrData;
+import util.Webpage;
 
 public class SolrService {
 	

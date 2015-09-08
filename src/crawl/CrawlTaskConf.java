@@ -1,9 +1,8 @@
 package crawl;
 
+import data.Link;
 import index.IndexConf;
 import parse.ParseConf;
-
-import data.Link;
 
 public class CrawlTaskConf {
 	

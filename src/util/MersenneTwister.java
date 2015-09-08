@@ -1,6 +1,11 @@
 package util;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
 /**
  * @see http://www.cs.gmu.edu/~sean/research/mersenne/MersenneTwister.java

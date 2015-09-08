@@ -1,8 +1,5 @@
 package data;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Link {

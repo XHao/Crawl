@@ -1,14 +1,13 @@
 package crawl;
 
 import java.io.IOException;
-import java.util.HashMap;
+
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import parse.ParseConf;
 
 public class CrawlConfig {
 	private static final Logger LOG = LoggerFactory.getLogger(CrawlConfig.class);

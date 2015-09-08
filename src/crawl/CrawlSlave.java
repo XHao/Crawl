@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map.Entry;
 
-import parse.FileParser;
-import parse.BrowserParser;
-import parse.ParseTask;
 import data.Link;
 import data.LinkConstant;
+import parse.BrowserParser;
+import parse.FileParser;
+import parse.ParseTask;
 
 public class CrawlSlave implements CrawlTask{
 

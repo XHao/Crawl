@@ -1,22 +1,15 @@
 package parse;
 
 
-import index.SolrService;
-
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import crawl.CrawlTask;
-
 import data.Link;
-import data.SolrData;
+import index.SolrService;
 
 public class FileParser implements ParseTask {
 	

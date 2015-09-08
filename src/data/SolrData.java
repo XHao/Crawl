@@ -1,7 +1,5 @@
 package data;
 
-import java.util.Date;
-
 import org.apache.solr.client.solrj.beans.Field;
 
 public class SolrData {
